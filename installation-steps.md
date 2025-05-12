@@ -79,7 +79,7 @@ echo "127.0.1.1 GerritArchPC.localdomain GerritArchPC" >> /etc/hosts
 echo "root:!!PASSWORD_HERE!!" | chpasswd
 
 # Install Hyprland, Firefox, Alacritty and necessary 'dependencies'
-pacman -S hyprland alacritty firefox waybar wofi xdg-desktop-portal-hyprland xdg-desktop-portal wl-clipboard
+pacman -S hyprland alacritty firefox waybar wofi xdg-desktop-portal-hyprland xdg-desktop-portal wl-clipboard ly
 
 # Enable the network manager
 systemctl enable NetworkManager
